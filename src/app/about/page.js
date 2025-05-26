@@ -2,7 +2,7 @@ import Image from "next/image";
 import { DockNav } from "@/components/dock-nav"
 import FadeContent from "@/components/FadeContent";
 
-export default function () {
+export default function About() {
 
     return (
         <div>
