@@ -1,18 +1,19 @@
 import Image from "next/image";
-import { DockNav } from "@/components/dock-nav"
+import { DockNav } from "@/components/dock-nav";
 import { motion } from "motion/react";
 import { LinkPreview } from "@/components/ui/link-preview";
+
 export default function Blogs() {
   return (
     <div
       className="
-        flex            
-        flex-col        
-        justify-center  
-        items-center  
+        flex
+        flex-col
+        justify-center
+        items-center
         min-h-screen
         p-8 pb-20
-        gap-4          
+        gap-4
         sm:p-20
         font-[family-name:var(--font-geist-sans)]
       "
@@ -25,13 +26,18 @@ export default function Blogs() {
           text-justify
         "
       >
-
-        Started off, with the{" "}
+        Started off with the{" "}
         <LinkPreview url="https://tailwindcss.com" className="font-semibold">
-           very first seminar 
-        </LinkPreview>{" "}. Which was led by Kuya Ned Palacios. The man, the myth, the legend himself. The creator of  <LinkPreview url="https://github.com/nedpals/myuic-neo" className="font-semibold">MyUICNeo </LinkPreview>{" "}
-        and the one who achieved remarkable success by earning a coveted position as one of the top 10 performers in TOPCIT. In this seminar, he shares "the daily life of a developer" where he reveals the in's and out's of a working dev. He explains how he got his job and what they do there.{" "}
-        {" "}
+          very first seminar
+        </LinkPreview>
+        , which was led by Kuya Ned Palacios—the man, the myth, the legend himself. He’s the creator of{" "}
+        <LinkPreview
+          url="https://github.com/nedpals/myuic-neo"
+          className="font-semibold"
+        >
+          MyUICNeo
+        </LinkPreview>{" "}
+        and one of the top 10 performers in TOPCIT. In this seminar, he shares “the daily life of a developer,” revealing the ins and outs of a working dev: how he got his job and what they do there.{" "}
         <LinkPreview url="https://framer.com/motion" className="font-semibold">
           Framer Motion
         </LinkPreview>{" "}
@@ -60,4 +66,3 @@ export default function Blogs() {
     </div>
   );
 }
-
