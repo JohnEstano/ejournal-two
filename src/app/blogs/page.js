@@ -26,22 +26,22 @@ export default function Blogs() {
           text-justify
         "
       >
-        Started off with the{" "}
+        Kickstart the{" "}
         <LinkPreview url="https://tailwindcss.com" className="font-semibold">
           very first seminar
         </LinkPreview>
-        , which was led by Kuya Ned Palacios—the man, the myth, the legend himself. He’s the creator of{" "}
+        , which was led by Kuya Ned Palacios the man, the myth, the legend himself. He’s the creator of{" "}
         <LinkPreview
           url="https://github.com/nedpals/myuic-neo"
           className="font-semibold"
         >
           MyUICNeo
         </LinkPreview>{" "}
-        and one of the top 10 performers in TOPCIT. In this seminar, he shares “the daily life of a developer,” revealing the ins and outs of a working dev: how he got his job and what they do there.{" "}
-        <LinkPreview url="https://framer.com/motion" className="font-semibold">
-          Framer Motion
-        </LinkPreview>{" "}
-        are a great way to build modern websites.
+        and one of the top 10 performers in  <LinkPreview
+          url="https://www.sunstar.com.ph/topic/ned-palacios"
+          className="font-semibold"
+        >TOPCIT</LinkPreview>. In this seminar, he shares “the daily life of a developer,” revealing the ins and outs of a working dev, how he got his job and what they do there.{" "}
+      
       </p>
 
       <p
