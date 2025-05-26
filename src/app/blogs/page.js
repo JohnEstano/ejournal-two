@@ -3,8 +3,13 @@ import { DockNav } from "@/components/dock-nav"
 
 export default function Blogs () {
 
-    return (<div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-        <p>Blogs</p>
+    return (
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+        
+
+        <div className="h-screen w-full text-center justify-center">
+        </div>   
+        <h1>Blogs</h1>
         <DockNav />
     </div>
     ) ;

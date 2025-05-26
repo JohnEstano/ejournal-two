@@ -2,51 +2,57 @@ import Image from "next/image";
 import { DockNav } from "@/components/dock-nav"
 import FadeContent from "@/components/FadeContent";
 
-export default function About() {
 
+export default function About() {
     return (
         <div>
-
-            <div className=" h-screen width-full flex items-center justify-center h-screen w-full">
-
-
-                <FadeContent blur={true} duration={500} easing="ease-out" initialOpacity={0}>
-                    <p className="text-center text-lg">
-                        About
-                    </p>
-
-                </FadeContent>
-            </div>
-            <div className=" h-screen width-full flex  items-center align-center justify-center w-full">
-                <Image
-                    src="/profile.png"
-                    alt="profile image"
-                    width={84}
-                    height={84}
-                    className="rounded-lg "
-                />
-
-            </div>
-
-
-            <div className=" h-screen width-full  items-center align-center justify-center h-screen  w-full">
-
-
-
+           
+            <div className="min-h-screen flex flex-col items-center justify-start px-4 pt-50 ">
 
                 <FadeContent blur={true} duration={500} easing="ease-out" initialOpacity={0}>
-
-                    <p className="text-justify block text-lg m-[400px]" >
-
-                        Hello, I am John Estano. I am a 2nd year Computer Science student studying at the University of the Immaculate Conception
-                    </p>
-
+                    <p className="text-center text-lg">@Me</p>
                 </FadeContent>
+
+
+                <div className="flex flex-row items-center gap-8 max-w-4xl mt-3">
+                    <FadeContent blur={true} duration={500} easing="ease-out" initialOpacity={0}>
+                        <Image
+                            src="/profile.png"
+                            alt="profile image"
+                            width={54}
+                            height={54}
+                            className="rounded-xl"
+                        />
+                    </FadeContent>
+
+                    <FadeContent blur={true} duration={500} easing="ease-out" initialOpacity={0}>
+                        <p className="text-justify text-lg max-w-md">
+                            Hey, I am John Estano. I am a 2nd year Computer Science student studying at the University of the Immaculate Conception. I like birds and the color <span className="text-emerald-500">green</span>.
+                        </p>
+                    </FadeContent>
+                </div>
+            </div>
+
+            <div className="min-h-screen flex flex-col items-center justify-start px-4 pt-50 ">
+
+                <FadeContent blur={true} duration={500} easing="ease-out" initialOpacity={0}>
+                    <p className="text-center text-lg">About  This Page</p>
+                </FadeContent>
+
+
+                <div className="flex flex-row items-center gap-8 max-w-4xl mt-3">
+
+                    <FadeContent blur={true} duration={500} easing="ease-out" initialOpacity={0}>
+                        <p className="text-justify text-lg max-w-md">
+                            This page is created in partial fulfillment of the course Seminars, Workshops, & Tours. This course gives students exposure to the real world and more specifically the tech industry. Here, I gather insights of my experiences in each activity.
+                        </p>
+
+
+                    </FadeContent>
+                </div>
             </div>
 
             <DockNav />
         </div>
     );
-
 }
-
