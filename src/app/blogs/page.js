@@ -31,11 +31,11 @@ export default function Blogs() {
       >
         Blogs
       </p>
-      <div className="grid grid-cols-3 gap-x-8 gap-y-4 mt-5">
+      <div className="grid grid-cols-3 gap-x-15 gap-y-10 mt-5">
 
         <Link href="/blogs/audioprocessing">
           <TiltedCard
-            imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
+            imageSrc="/profile.png"
             altText="Enhancing Audio Processing"
             captionText="Explore"
             containerHeight="200px"
@@ -57,7 +57,7 @@ export default function Blogs() {
 
         <Link href="/blogs/audioprocessing">
           <TiltedCard
-            imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
+            imageSrc="/profile.png"
             altText="Enhancing Audio Processing"
             captionText="Explore"
             containerHeight="200px"
@@ -79,7 +79,71 @@ export default function Blogs() {
 
         <Link href="/blogs/audioprocessing">
           <TiltedCard
-            imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
+            imageSrc="/profile.png"
+            altText="Enhancing Audio Processing"
+            captionText="Explore"
+            containerHeight="200px"
+            containerWidth="200px"
+            imageHeight="200px"
+            imageWidth="200px"
+            rotateAmplitude={12}
+            scaleOnHover={1.1}
+            showMobileWarning={false}
+            showTooltip={true}
+            displayOverlayContent={true}
+            overlayContent={
+              <p className="p-5 text-zinc-600">
+                Seminar 1
+              </p>
+            }
+          />
+        </Link>
+
+         <Link href="/blogs/audioprocessing">
+          <TiltedCard
+            imageSrc="/profile.png"
+            altText="Enhancing Audio Processing"
+            captionText="Explore"
+            containerHeight="200px"
+            containerWidth="200px"
+            imageHeight="200px"
+            imageWidth="200px"
+            rotateAmplitude={12}
+            scaleOnHover={1.1}
+            showMobileWarning={false}
+            showTooltip={true}
+            displayOverlayContent={true}
+            overlayContent={
+              <p className="p-5 text-zinc-600">
+                Seminar 1
+              </p>
+            }
+          />
+        </Link>
+         <Link href="/blogs/audioprocessing">
+          <TiltedCard
+            imageSrc="/profile.png"
+            altText="Enhancing Audio Processing"
+            captionText="Explore"
+            containerHeight="200px"
+            containerWidth="200px"
+            imageHeight="200px"
+            imageWidth="200px"
+            rotateAmplitude={12}
+            scaleOnHover={1.1}
+            showMobileWarning={false}
+            showTooltip={true}
+            displayOverlayContent={true}
+            overlayContent={
+              <p className="p-5 text-zinc-600">
+                Seminar 1
+              </p>
+            }
+          />
+        </Link>
+         <Link href="/blogs/audioprocessing">
+          <TiltedCard
+            imageSrc="/profile.png"
             altText="Enhancing Audio Processing"
             captionText="Explore"
             containerHeight="200px"
