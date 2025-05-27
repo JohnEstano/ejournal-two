@@ -2,6 +2,9 @@ import Image from "next/image";
 import { DockNav } from "@/components/dock-nav";
 import { motion } from "motion/react";
 import { LinkPreview } from "@/components/ui/link-preview";
+import TiltedCard from '@/components/TiltedCard';
+import Link from 'next/link';
+
 
 export default function Blogs() {
   return (
@@ -20,47 +23,115 @@ export default function Blogs() {
     >
       <p
         className="
-          text-neutral-500 dark:text-neutral-400
+          dark:text-neutral-400
           text-base md:text-lg
           max-w-xl
-          text-justify
+          text-justify mt-20
         "
       >
-        Kickstart the{" "}
-        <LinkPreview url="https://tailwindcss.com" className="font-semibold">
-          very first seminar
-        </LinkPreview>
-        , which was led by Kuya Ned Palacios the man, the myth, the legend himself. He’s the creator of{" "}
-        <LinkPreview
-          url="https://github.com/nedpals/myuic-neo"
-          className="font-semibold"
-        >
-          MyUICNeo
-        </LinkPreview>{" "}
-        and one of the top 10 performers in  <LinkPreview
-          url="https://www.sunstar.com.ph/topic/ned-palacios"
-          className="font-semibold"
-        >TOPCIT</LinkPreview>. In this seminar, he shares “the daily life of a developer,” revealing the ins and outs of a working dev, how he got his job and what they do there.{" "}
-      
+        Blogs
       </p>
+      <div className="grid grid-cols-3 gap-x-8 gap-y-4 mt-5">
 
-      <p
-        className="
-          text-neutral-500 dark:text-neutral-400
-          text-base md:text-lg
-          max-w-xl
-          text-center
-        "
-      >
-        Visit{" "}
-        <LinkPreview
-          url="https://youtube.com"
-          className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500"
-        >
-          Aceternity UI
-        </LinkPreview>{" "}
-        for amazing Tailwind and Framer Motion components.
-      </p>
+        <Link href="/blogs/audioprocessing">
+          <TiltedCard
+            imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
+            altText="Enhancing Audio Processing"
+            captionText="Explore"
+            containerHeight="200px"
+            containerWidth="200px"
+            imageHeight="200px"
+            imageWidth="200px"
+            rotateAmplitude={12}
+            scaleOnHover={1.1}
+            showMobileWarning={false}
+            showTooltip={true}
+            displayOverlayContent={true}
+            overlayContent={
+              <p className="p-5 text-zinc-600">
+                Seminar 1
+              </p>
+            }
+          />
+        </Link>
+
+        <Link href="/blogs/audioprocessing">
+          <TiltedCard
+            imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
+            altText="Enhancing Audio Processing"
+            captionText="Explore"
+            containerHeight="200px"
+            containerWidth="200px"
+            imageHeight="200px"
+            imageWidth="200px"
+            rotateAmplitude={12}
+            scaleOnHover={1.1}
+            showMobileWarning={false}
+            showTooltip={true}
+            displayOverlayContent={true}
+            overlayContent={
+              <p className="p-5 text-zinc-600">
+                Seminar 1
+              </p>
+            }
+          />
+        </Link>
+
+        <Link href="/blogs/audioprocessing">
+          <TiltedCard
+            imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
+            altText="Enhancing Audio Processing"
+            captionText="Explore"
+            containerHeight="200px"
+            containerWidth="200px"
+            imageHeight="200px"
+            imageWidth="200px"
+            rotateAmplitude={12}
+            scaleOnHover={1.1}
+            showMobileWarning={false}
+            showTooltip={true}
+            displayOverlayContent={true}
+            overlayContent={
+              <p className="p-5 text-zinc-600">
+                Seminar 1
+              </p>
+            }
+          />
+        </Link>
+      </div>
+
+
+      <div className="grid grid-cols-3 gap-x-8 gap-y-4">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+        <div>04</div>
+        <div>05</div>
+        <div>06</div>
+      </div>
+
+
+
+      <ul className="list-decimal ">
+
+        <li>
+          Daily life of a developer
+        </li>
+        <li>
+          Enhancing Audio Processing: Development and Evaluation of a Transcriber Tool
+        </li>
+        <li>
+          Research101: Conference Presentation and Funding Techniques
+        </li>
+        <li>
+          TherapEase: Bridging & Fostering Therapy Collaboration for Therapists and Carers
+        </li>
+        <li>
+          Research101: the ins and outs of software engineering research project.
+        </li>
+      </ul>
+
+
 
       <DockNav />
     </div>
