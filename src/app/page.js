@@ -17,7 +17,7 @@ export default function Home() {
           <h1 className="absolute bottom-25 left-0 m-8 text-6xl md:text-8xl font-bold text-left text-zinc-880 leading-none">
             Hey, Welcome to my Ejournal.
           </h1>
-          <h1 className="absolute bottom-10 left-0 m-8 text-2xl text-left text-zinc-880 leading-none">
+          <h1 className="absolute bottom-8 p-4   left-0 m-8 text-2xl text-left text-zinc-880 leading-none shadow-lg rounded-xl">
             Seminars, Workshops, & Tours
           </h1>
         </FadeContent>
