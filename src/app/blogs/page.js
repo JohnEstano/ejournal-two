@@ -37,7 +37,7 @@ export default function Blogs() {
           <TiltedCard
             imageSrc="/profile.png"
             altText="Enhancing Audio Processing"
-            captionText="Explore"
+            captionText="Navigating Software Development in the Industry"
             containerHeight="200px"
             containerWidth="200px"
             imageHeight="200px"
@@ -47,11 +47,27 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-            overlayContent={
-              <p className="p-5 text-zinc-600">
-                Seminar 1
-              </p>
-            }
+         
+          />
+           
+
+        </Link>
+
+        <Link href="/blogs/audioprocessing">
+          <TiltedCard
+            imageSrc="/profile.png"
+            altText="Enhancing Audio Processing"
+            captionText="Enhancing Audio Processing"
+            containerHeight="200px"
+            containerWidth="200px"
+            imageHeight="200px"
+            imageWidth="200px"
+            rotateAmplitude={12}
+            scaleOnHover={1.1}
+            showMobileWarning={false}
+            showTooltip={true}
+            displayOverlayContent={true}
+           
           />
         </Link>
 
@@ -59,7 +75,7 @@ export default function Blogs() {
           <TiltedCard
             imageSrc="/profile.png"
             altText="Enhancing Audio Processing"
-            captionText="Explore"
+            captionText="Conference Presentation and Funding Techniques"
             containerHeight="200px"
             containerWidth="200px"
             imageHeight="200px"
@@ -69,33 +85,7 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-            overlayContent={
-              <p className="p-5 text-zinc-600">
-                Seminar 1
-              </p>
-            }
-          />
-        </Link>
-
-        <Link href="/blogs/audioprocessing">
-          <TiltedCard
-            imageSrc="/profile.png"
-            altText="Enhancing Audio Processing"
-            captionText="Explore"
-            containerHeight="200px"
-            containerWidth="200px"
-            imageHeight="200px"
-            imageWidth="200px"
-            rotateAmplitude={12}
-            scaleOnHover={1.1}
-            showMobileWarning={false}
-            showTooltip={true}
-            displayOverlayContent={true}
-            overlayContent={
-              <p className="p-5 text-zinc-600">
-                Seminar 1
-              </p>
-            }
+           
           />
         </Link>
 
@@ -103,7 +93,7 @@ export default function Blogs() {
           <TiltedCard
             imageSrc="/profile.png"
             altText="Enhancing Audio Processing"
-            captionText="Explore"
+            captionText="TherapEase"
             containerHeight="200px"
             containerWidth="200px"
             imageHeight="200px"
@@ -113,18 +103,15 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-            overlayContent={
-              <p className="p-5 text-zinc-600">
-                Seminar 1
-              </p>
-            }
-          />
+          
+         />
+          
         </Link>
          <Link href="/blogs/audioprocessing">
           <TiltedCard
             imageSrc="/profile.png"
             altText="Enhancing Audio Processing"
-            captionText="Explore"
+            captionText="The Ins and Outs of Software Engineering Research Project"
             containerHeight="200px"
             containerWidth="200px"
             imageHeight="200px"
@@ -134,18 +121,15 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-            overlayContent={
-              <p className="p-5 text-zinc-600">
-                Seminar 1
-              </p>
-            }
+          
           />
         </Link>
+        
          <Link href="/blogs/audioprocessing">
           <TiltedCard
             imageSrc="/profile.png"
             altText="Enhancing Audio Processing"
-            captionText="Explore"
+            captionText="Bridging Academia and Startup Innovation"
             containerHeight="200px"
             containerWidth="200px"
             imageHeight="200px"
@@ -155,11 +139,25 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-            overlayContent={
-              <p className="p-5 text-zinc-600">
-                Seminar 1
-              </p>
-            }
+           
+          />
+        </Link>
+
+          <Link href="/blogs/audioprocessing">
+          <TiltedCard
+            imageSrc="/profile.png"
+            altText="Enhancing Audio Processing"
+            captionText="Prompt Engineering"
+            containerHeight="200px"
+            containerWidth="200px"
+            imageHeight="200px"
+            imageWidth="200px"
+            rotateAmplitude={12}
+            scaleOnHover={1.1}
+            showMobileWarning={false}
+            showTooltip={true}
+            displayOverlayContent={true}
+           
           />
         </Link>
       </div>
