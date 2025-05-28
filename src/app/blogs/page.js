@@ -33,10 +33,10 @@ export default function Blogs() {
       </p>
       <div className="grid grid-cols-3 gap-x-15 gap-y-10 mt-5">
 
-        <Link href="/blogs/audioprocessing">
+        <Link href="/blogs/dailylifeofadev">
           <TiltedCard
             imageSrc="/profile.png"
-            altText="Enhancing Audio Processing"
+            altText="Navigating Software Development in the Industry"
             captionText="Navigating Software Development in the Industry"
             containerHeight="200px"
             containerWidth="200px"
@@ -163,14 +163,6 @@ export default function Blogs() {
       </div>
 
 
-      <div className="grid grid-cols-3 gap-x-8 gap-y-4">
-        <div>01</div>
-        <div>02</div>
-        <div>03</div>
-        <div>04</div>
-        <div>05</div>
-        <div>06</div>
-      </div>
 
 
 
