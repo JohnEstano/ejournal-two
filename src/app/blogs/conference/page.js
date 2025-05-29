@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { DockNav } from "@/components/dock-nav";
 import { motion } from "motion/react";
-import { LinkPreview } from "@/components/ui/link-preview";
 
 export default function Blogs() {
   return (
@@ -9,7 +8,8 @@ export default function Blogs() {
       className="
         flex
         flex-col
-        justify-center
+        justify-start
+        mt-30
         items-center
         min-h-screen
         p-8 pb-20
@@ -18,33 +18,39 @@ export default function Blogs() {
         font-[family-name:var(--font-geist-sans)]
       "
     >
-      <p
-        className="
-          text-neutral-500 dark:text-neutral-400
-          text-base md:text-lg
-          max-w-xl
-          text-justify
-        "
-      >
-        Starting the{" "}
-        <LinkPreview url="" className="font-semibold">
-          very first seminar
-        </LinkPreview>
-        , which was led by Kuya Ned Palacios the man, the myth, the legend himself. He’s the creator of{" "}
-        <LinkPreview
-          url="https://ejrnl.vercel.app/blogs/dailylifeofadev"
-          className="font-semibold"
-        >
-          MyUICNeo
-        </LinkPreview>{" "}
-        and one of the top 10 performers in  <LinkPreview
-          url="https://www.sunstar.com.ph/topic/ned-palacios"
-          className="font-semibold"
-        >TOPCIT</LinkPreview>. In this seminar, he shares “the daily life of a developer,” revealing the ins and outs of a working dev, how he got his job and what they do there.{" "}
+      <div className="grid grid-cols-1 gap-1 mb-5">
+        <h1 className="font-semibold">Research101: Conference Presentation and Funding Techniques </h1>
+        <div className="flex gap-5">
+          <p className="">Speaker:  Chris John David Manero</p>
+          <p className="">Date: 05/22/2025</p>
+        </div>
+      </div>
 
+
+      <Image
+        src="/images/seminar3_2.jpg"
+        width={500}
+        height={300}
+        className="rounded-lg"
+        alt="Image"
+      />
+      <p className="text-justify max-w-[600px]">
+        Discussed about holding a presentation, techniques in conducting a presentation, how to make your presentation accepted for funding, what are the skills needed to do a presentation research.
+      </p>
+      <Image
+        src="/images/seminar3.jpg"
+        width={500}
+        height={300}
+        className="rounded-lg"
+        alt="Image"
+      />
+
+
+      <p className="text-justify max-w-[600px] mt-5">
+      Sir Chris John David Manero is a professional indeed in doing presentations. He established his credibility by sharing his research works before, amassing I think like about 1 million in total from DOST.
       </p>
 
-    
+
 
       <DockNav />
     </div>

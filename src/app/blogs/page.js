@@ -35,7 +35,7 @@ export default function Blogs() {
 
         <Link href="/blogs/dailylifeofadev">
           <TiltedCard
-            imageSrc="/profile.png"
+            imageSrc="images/seminar1.jpeg"
             altText="Navigating Software Development in the Industry"
             captionText="Navigating Software Development in the Industry"
             containerHeight="200px"
@@ -55,7 +55,7 @@ export default function Blogs() {
 
         <Link href="/blogs/audioprocessing">
           <TiltedCard
-            imageSrc="/profile.png"
+            imageSrc="images/seminar2.jpg"
             altText="Enhancing Audio Processing"
             captionText="Enhancing Audio Processing"
             containerHeight="200px"
@@ -71,10 +71,10 @@ export default function Blogs() {
           />
         </Link>
 
-        <Link href="/blogs/audioprocessing">
+        <Link href="/blogs/conference">
           <TiltedCard
-            imageSrc="/profile.png"
-            altText="Enhancing Audio Processing"
+            imageSrc="images/seminar3_2.jpg"
+            altText="Conference"
             captionText="Conference Presentation and Funding Techniques"
             containerHeight="200px"
             containerWidth="200px"
@@ -89,9 +89,9 @@ export default function Blogs() {
           />
         </Link>
 
-         <Link href="/blogs/audioprocessing">
+         <Link href="/blogs/therapease">
           <TiltedCard
-            imageSrc="/profile.png"
+            imageSrc="/images/seminar4.jpg"
             altText="Enhancing Audio Processing"
             captionText="TherapEase"
             containerHeight="200px"
@@ -145,7 +145,7 @@ export default function Blogs() {
 
           <Link href="/blogs/audioprocessing">
           <TiltedCard
-            imageSrc="/profile.png"
+            imageSrc="images/seminar7.jpg"
             altText="Enhancing Audio Processing"
             captionText="Prompt Engineering"
             containerHeight="200px"
