@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { DockNav } from "@/components/dock-nav";
 import { motion } from "motion/react";
-import { LinkPreview } from "@/components/ui/link-preview";
 
 export default function Blogs() {
   return (
@@ -9,7 +8,8 @@ export default function Blogs() {
       className="
         flex
         flex-col
-        justify-center
+        justify-start
+        mt-30
         items-center
         min-h-screen
         p-8 pb-20
@@ -18,33 +18,36 @@ export default function Blogs() {
         font-[family-name:var(--font-geist-sans)]
       "
     >
-      <p
-        className="
-          text-neutral-500 dark:text-neutral-400
-          text-base md:text-lg
-          max-w-xl
-          text-justify
-        "
-      >
-        Starting the{" "}
-        <LinkPreview url="" className="font-semibold">
-          very first seminar
-        </LinkPreview>
-        , which was led by Kuya Ned Palacios the man, the myth, the legend himself. He’s the creator of{" "}
-        <LinkPreview
-          url="https://ejrnl.vercel.app/blogs/dailylifeofadev"
-          className="font-semibold"
-        >
-          MyUICNeo
-        </LinkPreview>{" "}
-        and one of the top 10 performers in  <LinkPreview
-          url="https://www.sunstar.com.ph/topic/ned-palacios"
-          className="font-semibold"
-        >TOPCIT</LinkPreview>. In this seminar, he shares “the daily life of a developer,” revealing the ins and outs of a working dev, how he got his job and what they do there.{" "}
+      <div className="grid grid-cols-1 gap-1 mb-5">
+        <h1 className="font-semibold">TherapEase: Bridging & Fostering Therapy Collaboration for Therapists and Carers</h1>
+        <div className="flex gap-5">
+          <p className="">Speaker:  Hizon Caja</p>
+          <p className="">Date: 05/23/2025</p>
+        </div>
+      </div>
 
+      <p className="text-justify max-w-[600px]">
+        Sir Carlos Castro, or also more known as Sir Lucas mainly discussed about his experience in conducting the output they have during their Technical Writing course. It is aligned with the fourth year college students capstone project SultiWag at that time and they have contributed to the project by increasing its accuracy by 80%+ which is actually significantly higher than of SultiWags 70%+ accuracy.
       </p>
 
-    
+      <Image
+        src="/images/seminar2.jpg"
+        width={500}
+        height={300}
+        className="rounded-lg"
+        alt="Image"
+      />
+
+      <p className="text-justify max-w-[600px] mt-5">
+        I do not want to delve deeper on the technicalities of their research paper to be exact. I will summarize the entire thing.
+        Their paper was entitled Ugop Bridge: Improving Indigenous Language Classification. They are like building upon the tools, methods, and even the datasets done by the UGOP Bridge team with the intention to improve the system and add on to the steps. These steps include re-sampling the audio, fixing the duration of the recordings, and augmenting the audio data in the datasets.
+      </p>
+
+
+      <p className="text-justify max-w-[600px] mt-5">
+        His speech was inspiring in itself because he shared that this paper gave them the opportunity to travel to Manila and share their paper their at De lasalle University.
+      </p>
+
 
       <DockNav />
     </div>

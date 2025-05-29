@@ -19,10 +19,10 @@ export default function Blogs() {
       "
     >
       <div className="grid grid-cols-1 gap-1 mb-5">
-        <h1 className="font-semibold">Research101: the ins and outs of software engineering research project. </h1>
+        <h1 className="font-semibold">Prompt Engineering</h1>
         <div className="flex gap-5">
-          <p className="">Speaker:  Shenna Cloribel</p>
-          <p className="">Date: 05/26/2025</p>
+          <p className="">Speaker:  Eric Emberda</p>
+          <p className="">Date: 05/28/2025</p>
         </div>
       </div>
 
@@ -45,7 +45,7 @@ export default function Blogs() {
 
 
       <p className="text-justify max-w-[600px] mt-5">
-        His speech was inspiring in itself because he shared that this paper gave them the opportunity to travel to Manila and share their paper their at De lasalle University.
+      His speech was inspiring in itself because he shared that this paper gave them the opportunity to travel to Manila and share their paper their at De lasalle University.
       </p>
 
 

@@ -107,9 +107,9 @@ export default function Blogs() {
          />
           
         </Link>
-         <Link href="/blogs/audioprocessing">
+         <Link href="/blogs/theinsandouts">
           <TiltedCard
-            imageSrc="/profile.png"
+            imageSrc="images/seminar5.jpg"
             altText="Enhancing Audio Processing"
             captionText="The Ins and Outs of Software Engineering Research Project"
             containerHeight="200px"
@@ -125,7 +125,7 @@ export default function Blogs() {
           />
         </Link>
         
-         <Link href="/blogs/audioprocessing">
+         <Link href="/blogs/bridgingacademia">
           <TiltedCard
             imageSrc="/profile.png"
             altText="Enhancing Audio Processing"
@@ -143,7 +143,7 @@ export default function Blogs() {
           />
         </Link>
 
-          <Link href="/blogs/audioprocessing">
+          <Link href="/blogs/prompting">
           <TiltedCard
             imageSrc="images/seminar7.jpg"
             altText="Enhancing Audio Processing"
