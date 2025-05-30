@@ -27,11 +27,11 @@ export default function Blogs() {
       </div>
 
       <p className="text-justify max-w-[600px]">
-        Sir Carlos Castro, or also more known as Sir Lucas mainly discussed about his experience in conducting the output they have during their Technical Writing course. It is aligned with the fourth year college students capstone project SultiWag at that time and they have contributed to the project by increasing its accuracy by 80%+ which is actually significantly higher than of SultiWags 70%+ accuracy.
+        Sir Hizon Caja first started off with introducing himself and what the presentation was all about. He introduced their research capstone project entitled TherapEase: Bridging & Fostering Therapy Collaboration for Therapists and Carers.
       </p>
 
       <Image
-        src="/images/seminar2.jpg"
+        src="/images/seminar4.jpg"
         width={500}
         height={300}
         className="rounded-lg"
@@ -39,13 +39,16 @@ export default function Blogs() {
       />
 
       <p className="text-justify max-w-[600px] mt-5">
-        I do not want to delve deeper on the technicalities of their research paper to be exact. I will summarize the entire thing.
-        Their paper was entitled Ugop Bridge: Improving Indigenous Language Classification. They are like building upon the tools, methods, and even the datasets done by the UGOP Bridge team with the intention to improve the system and add on to the steps. These steps include re-sampling the audio, fixing the duration of the recordings, and augmenting the audio data in the datasets.
+        It is a project that are mainly targeted to those childrens with developmental delays and that this project was developed to make it significantly easier and more accessible to do therapies. It is quite literally evident in the name itself, TherapEase.
       </p>
 
 
       <p className="text-justify max-w-[600px] mt-5">
-        His speech was inspiring in itself because he shared that this paper gave them the opportunity to travel to Manila and share their paper their at De lasalle University.
+      Well the main point of the talk was not about the technical terms and features about their documented project. It was mainly about the experience, the journey they have had with in regards to developing the project itself. He shares, being as a student before who have struggled, who have experienced difficulties with his group, that despite having your friends take your back in the group, it is not always a smooth sail. Even having the fact that you have your closest friends to be your group members does not mean that you, they , everyone will not break. He also shared the fact that he had resorted to even asking for external help such as hiring ghost programmers in developing their backend.
+      </p>
+
+       <p className="text-justify max-w-[600px] mt-5">
+        First off, I would commend sir Hizon Caja for exhibiting such honesty with in regards to academics. My greatest insight to this presentation was that you should always admit when you cannot handle it anymore. Always be truthful and that always ask for help when you need it. Stop owing everything to yourself. The probable reason why there are arguments in groups doing projects is that they are honest to themselves and to their group. And that they wanted to have the betterment for everyone by doing efficient work. I think that it is what a real friend does.
       </p>
 
 

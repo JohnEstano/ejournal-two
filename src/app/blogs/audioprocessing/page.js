@@ -45,7 +45,7 @@ export default function Blogs() {
 
 
       <p className="text-justify max-w-[600px] mt-5">
-      His speech was inspiring in itself because he shared that this paper gave them the opportunity to travel to Manila and share their paper their at De lasalle University.
+      His speech was inspiring in itself because he shared that this paper gave them the opportunity to travel to Manila and share their paper there at De lasalle University.
       </p>
 
 

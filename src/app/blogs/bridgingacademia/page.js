@@ -19,7 +19,7 @@ export default function Blogs() {
       "
     >
       <div className="grid grid-cols-1 gap-1 mb-5">
-        <h1 className="font-semibold">Enhancing Audio Processing: Development and Evaluation of a Transcriber Tool </h1>
+        <h1 className="font-semibold">Bridging Academia and Startup Innovation</h1>
         <div className="flex gap-5">
           <p className="">Speaker:  Ceasar Ian Benablo</p>
           <p className="">Date: 05/27/2025</p>
@@ -27,7 +27,7 @@ export default function Blogs() {
       </div>
 
       <p className="text-justify max-w-[600px]">
-        Sir Carlos Castro, or also more known as Sir Lucas mainly discussed about his experience in conducting the output they have during their Technical Writing course. It is aligned with the fourth year college students capstone project SultiWag at that time and they have contributed to the project by increasing its accuracy by 80%+ which is actually significantly higher than of SultiWags 70%+ accuracy.
+       The Dean himself provided the remarkable talk.
       </p>
 
       <Image

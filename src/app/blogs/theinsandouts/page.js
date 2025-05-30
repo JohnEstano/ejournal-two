@@ -27,11 +27,11 @@ export default function Blogs() {
       </div>
 
       <p className="text-justify max-w-[600px]">
-        Sir Carlos Castro, or also more known as Sir Lucas mainly discussed about his experience in conducting the output they have during their Technical Writing course. It is aligned with the fourth year college students capstone project SultiWag at that time and they have contributed to the project by increasing its accuracy by 80%+ which is actually significantly higher than of SultiWags 70%+ accuracy.
+        Maam Shen delved deeper into the fundamentals of Systems Analysis and Design. A key point highlighted was the importance of accurately completing the routing form, which is essential for the approval of project proposals. This form acts as a formal representation of the researchs scope, schedule, and methodology. Mrs. Shenna stressed that it should be completed thoughtfully and precisely, as it demonstrates the research teams level of preparation and organization.
       </p>
 
       <Image
-        src="/images/seminar2.jpg"
+        src="/images/seminar5_2.jpg"
         width={500}
         height={300}
         className="rounded-lg"
@@ -39,13 +39,12 @@ export default function Blogs() {
       />
 
       <p className="text-justify max-w-[600px] mt-5">
-        I do not want to delve deeper on the technicalities of their research paper to be exact. I will summarize the entire thing.
-        Their paper was entitled Ugop Bridge: Improving Indigenous Language Classification. They are like building upon the tools, methods, and even the datasets done by the UGOP Bridge team with the intention to improve the system and add on to the steps. These steps include re-sampling the audio, fixing the duration of the recordings, and augmenting the audio data in the datasets.
+      Maam Shen fleshed out the processes of conducting a proper software engineering research project. Which is a continuation for the course Systems Analysis and Design. She reintroduced the processes of SDLC etc. She also talked about properly doing user acceptance testing. From doing the consent forms, explaining to the users etc. It was more technical stuff.
       </p>
 
 
       <p className="text-justify max-w-[600px] mt-5">
-        His speech was inspiring in itself because he shared that this paper gave them the opportunity to travel to Manila and share their paper their at De lasalle University.
+        The insight I would give to her presentation is that it really prepares us to what is about to come. Software engineering course might either break or make us. 
       </p>
 
 

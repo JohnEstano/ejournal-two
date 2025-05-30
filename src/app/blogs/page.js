@@ -21,16 +21,17 @@ export default function Blogs() {
         font-[family-name:var(--font-geist-sans)]
       "
     >
-      <p
-        className="
-          dark:text-neutral-400
-          text-base md:text-lg
-          max-w-xl
-          text-justify mt-20
-        "
+      <h2
+        className={
+          ` mt-5 font-thin leading-tight italic 
+              text-3xl md:text-4xl text-zinc-800 font-serif dark:text-zinc-100`
+        }
+
       >
         Blogs
-      </p>
+      </h2>
+
+      <p className="italic">Seminars & Workshops</p>
       <div className="grid grid-cols-3 gap-x-15 gap-y-10 mt-5">
 
         <Link href="/blogs/dailylifeofadev">
@@ -47,9 +48,9 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-         
+
           />
-           
+
 
         </Link>
 
@@ -67,7 +68,7 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-           
+
           />
         </Link>
 
@@ -85,11 +86,11 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-           
+
           />
         </Link>
 
-         <Link href="/blogs/therapease">
+        <Link href="/blogs/therapease">
           <TiltedCard
             imageSrc="/images/seminar4.jpg"
             altText="Enhancing Audio Processing"
@@ -103,11 +104,11 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-          
-         />
-          
+
+          />
+
         </Link>
-         <Link href="/blogs/theinsandouts">
+        <Link href="/blogs/theinsandouts">
           <TiltedCard
             imageSrc="images/seminar5.jpg"
             altText="Enhancing Audio Processing"
@@ -121,11 +122,11 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-          
+
           />
         </Link>
-        
-         <Link href="/blogs/bridgingacademia">
+
+        <Link href="/blogs/bridgingacademia">
           <TiltedCard
             imageSrc="/profile.png"
             altText="Enhancing Audio Processing"
@@ -139,11 +140,11 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-           
+
           />
         </Link>
 
-          <Link href="/blogs/prompting">
+        <Link href="/blogs/prompting">
           <TiltedCard
             imageSrc="images/seminar7.jpg"
             altText="Enhancing Audio Processing"
@@ -157,34 +158,25 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-           
+
           />
         </Link>
+      </div>
+
+      
+      <p className="italic">Tours</p>
+      <div className="grid grid-cols-3 gap-x-15 gap-y-10 mt-5">
+
+
       </div>
 
 
 
 
 
-      <ul className="list-decimal ">
 
-        <li>
-          Daily life of a developer
-        </li>
-        <li>
-          Enhancing Audio Processing: Development and Evaluation of a Transcriber Tool
-        </li>
-        <li>
-          Research101: Conference Presentation and Funding Techniques
-        </li>
-        <li>
-          TherapEase: Bridging & Fostering Therapy Collaboration for Therapists and Carers
-        </li>
-        <li>
-          Research101: the ins and outs of software engineering research project.
-        </li>
-      </ul>
 
+   
 
 
       <DockNav />
