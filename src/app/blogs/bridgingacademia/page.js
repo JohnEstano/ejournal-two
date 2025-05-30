@@ -27,11 +27,11 @@ export default function Blogs() {
       </div>
 
       <p className="text-justify max-w-[600px]">
-       The Dean himself provided the remarkable talk.
+        The Dean himself provided the remarkable talk.
       </p>
 
       <Image
-        src="/images/seminar2.jpg"
+        src="/images/seminar6.jpg"
         width={500}
         height={300}
         className="rounded-lg"
@@ -39,13 +39,12 @@ export default function Blogs() {
       />
 
       <p className="text-justify max-w-[600px] mt-5">
-        I do not want to delve deeper on the technicalities of their research paper to be exact. I will summarize the entire thing.
-        Their paper was entitled Ugop Bridge: Improving Indigenous Language Classification. They are like building upon the tools, methods, and even the datasets done by the UGOP Bridge team with the intention to improve the system and add on to the steps. These steps include re-sampling the audio, fixing the duration of the recordings, and augmenting the audio data in the datasets.
+        Sir Ian P. Benablo was an extraordinary speaker. His talk mainly highlights the importance of engaging a research capstone, thesis, or projects with a different mindset and approach. He explicitly highlights the importance of having the mindset of an innovator. That you should restructure your thinking with in regards to doing research. That you are not doing it because it is an academic requirement but because you have something to offer to the community. Something that is actually significant. Something that actually works and that something that people actually use.
       </p>
 
 
       <p className="text-justify max-w-[600px] mt-5">
-      His speech was inspiring in itself because he shared that this paper gave them the opportunity to travel to Manila and share their paper their at De lasalle University.
+        It is an overly contextualized summary of his presentation but that is where I think the main focal point of his presentation. He also introduced the Marian TBI but I do not want to talk about that in detail. His speech is inspiring, to create something that will live even after you graduate. That is what I aim to create in the near future.
       </p>
 
 
