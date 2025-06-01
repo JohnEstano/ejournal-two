@@ -4,6 +4,7 @@ import { motion } from "motion/react";
 import { LinkPreview } from "@/components/ui/link-preview";
 import TiltedCard from '@/components/TiltedCard';
 import Link from 'next/link';
+import {Separator} from '@/components/ui/separator';
 
 
 export default function Blogs() {
@@ -163,11 +164,29 @@ export default function Blogs() {
         </Link>
       </div>
 
-      
+
+ <Separator className="my-4" />
       <p className="italic">Tours</p>
+      
       <div className="grid grid-cols-3 gap-x-15 gap-y-10 mt-5">
 
+        <Link href="/tours">
+          <TiltedCard
+            imageSrc="images/seminar7.jpg"
+            altText="Enhancing Audio Processing"
+            captionText="Prompt Engineering"
+            containerHeight="200px"
+            containerWidth="200px"
+            imageHeight="200px"
+            imageWidth="200px"
+            rotateAmplitude={12}
+            scaleOnHover={1.1}
+            showMobileWarning={false}
+            showTooltip={true}
+            displayOverlayContent={true}
 
+          />
+        </Link>
       </div>
 
 
@@ -176,7 +195,7 @@ export default function Blogs() {
 
 
 
-   
+
 
 
       <DockNav />
