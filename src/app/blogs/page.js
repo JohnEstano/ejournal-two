@@ -172,7 +172,7 @@ export default function Blogs() {
 
         <Link href="/tours">
           <TiltedCard
-            imageSrc="images/seminar7.jpg"
+            imageSrc="images/tours/1.jpg"
             altText="Enhancing Audio Processing"
             captionText="Prompt Engineering"
             containerHeight="200px"
