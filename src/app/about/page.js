@@ -11,6 +11,7 @@ export default function About() {
 
             <div className="min-h-screen flex flex-col items-center justify-start px-4 pt-50 ">
 
+
                 <FadeContent blur={true} duration={500} easing="ease-out" initialOpacity={0}>
                     <p className="text-center text-lg">@Me</p>
                 </FadeContent>

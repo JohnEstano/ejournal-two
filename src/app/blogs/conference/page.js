@@ -35,7 +35,9 @@ export default function Blogs() {
         alt="Image"
       />
       <p className="text-justify max-w-[600px]">
-        Discussed about holding a presentation, techniques in conducting a presentation, how to make your presentation accepted for funding, what are the skills needed to do a presentation research.
+        So we had this seminar called "Research 101: Conference Presentation and Funding Techniques" on May 22, 2025, and honestly, I didnt expect to be this into it. The speaker was Sir Chris John David Manero and man, this guy knows how to present. Not in the boring, robotic way most speakers do, but in a way that actually makes you want to listen.
+
+        Right off the bat, he asked this question: “Who loves research?” And of course, everyone just smiled awkwardly because, let us be real, research sounds like a headache. But that is kind of the point. He knew most of us were intimidated by it. That is why the way he talked made such a big difference. Super chill, relatable, and no nonsense.
       </p>
       <Image
         src="/images/seminar3.jpg"
@@ -47,8 +49,18 @@ export default function Blogs() {
 
 
       <p className="text-justify max-w-[600px] mt-5">
-      Sir Chris John David Manero is a professional indeed in doing presentations. He established his credibility by sharing his research works before, amassing I think like about 1 million in total from DOST.
+        He broke down the whole idea of research into something that actually makes sense. One of the first big points he made was do not make a solution if you do not even know the problem. Like, stop building a system just because it is cool and try to fix something that actually matters. That hit hard. So many of us start with an idea and force it into a problem when it should be the other way around.
+
+        He also introduced us to using AI tools like SciSpace. Game changer. Makes research feel way less like climbing Mt Everest. These tools help you organize, find related studies, and make sense of stuff without drowning in PDFs.
       </p>
+
+      <p className="text-justify max-w-[600px] mt-5">
+        So yeah, overall, it was a surprisingly good session. Not just about research techniques, but about having the right mindset. That it is okay to be overwhelmed. That research does not have to be scary or boring. And most importantly, that it actually matters.
+
+        Sir Manero made it feel like something doable. Something we can own. He did not just teach us how to make our research presentable. He made us believe we had something worth presenting in the first place.
+
+        10 out of 10 would attend again.    
+        </p>
 
 
 
