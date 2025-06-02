@@ -26,7 +26,7 @@ export default function Blogs() {
             </div>
 
             <p className="text-justify max-w-[600px]">
-                The construction of the Mindanao Media Hub began with the groundbreaking ceremony held on May 3, 2018. It was intended to host the Philippine government's media agencies and was initially projected to be finished by January 2019. - from wikipedia
+                The construction of the Mindanao Media Hub began with the groundbreaking ceremony held on May 3, 2018. It was intended to host the Philippine governments media agencies and was initially projected to be finished by January 2019. - from wikipedia
             </p>
 
             <Image
