@@ -82,7 +82,7 @@ export default function Blogs() {
                     className="rounded-xl w-full mb-4"
                 />
                 <Image
-                    src="/images/tours/8.jpg"
+                    src="/images/tours/9.jpg"
                     alt="photo"
                     width={400}
                     height={250}
@@ -90,7 +90,7 @@ export default function Blogs() {
                 />
             </div>
             <p className="text-justify max-w-[600px]">
-                An extremely fun tour — it was such an honor to witness live newscasting with my own eyes.
+               I really enjoyed this tour very much. It really exposed us to the industry of newscasting. I feel really immersed into the behind the scenes. To think that it takes millions just for the equipments it probably takes millions of billions to orchestrate the entire facility into its purpose. To deliver news to everyone. 
             </p>
 
 
