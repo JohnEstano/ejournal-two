@@ -63,6 +63,27 @@ export default function Gallery() {
                 alt="pctrs"
                 className="rounded-xl"
             />
+               <Image
+                src='/images/seminar5.jpg'
+                width={600}
+                height={100}
+                alt="pctrs"
+                className="rounded-xl"
+            />
+             <Image
+                src='/images/seminar4.jpeg'
+                width={600}
+                height={100}
+                alt="pctrs"
+                className="rounded-xl"
+            />
+             <Image
+                src='/images/seminar6.jpeg'
+                width={600}
+                height={100}
+                alt="pctrs"
+                className="rounded-xl"
+            />
 
         </div>
 

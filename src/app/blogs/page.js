@@ -174,7 +174,7 @@ export default function Blogs() {
           <TiltedCard
             imageSrc="images/tours/1.jpg"
             altText="Enhancing Audio Processing"
-            captionText="Prompt Engineering"
+            captionText="PTV DAVAO"
             containerHeight="200px"
             containerWidth="200px"
             imageHeight="200px"
