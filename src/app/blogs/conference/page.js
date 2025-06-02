@@ -35,7 +35,7 @@ export default function Blogs() {
         alt="Image"
       />
       <p className="text-justify max-w-[600px]">
-        So we had this seminar called "Research 101: Conference Presentation and Funding Techniques" on May 22, 2025, and honestly, I didnt expect to be this into it. The speaker was Sir Chris John David Manero and man, this guy knows how to present. Not in the boring, robotic way most speakers do, but in a way that actually makes you want to listen.
+        So we had this seminar called Research 101: Conference Presentation and Funding Techniques on May 22, 2025, and honestly, I didnt expect to be this into it. The speaker was Sir Chris John David Manero and man, this guy knows how to present. Not in the boring, robotic way most speakers do, but in a way that actually makes you want to listen.
 
         Right off the bat, he asked this question: “Who loves research?” And of course, everyone just smiled awkwardly because, let us be real, research sounds like a headache. But that is kind of the point. He knew most of us were intimidated by it. That is why the way he talked made such a big difference. Super chill, relatable, and no nonsense.
       </p>

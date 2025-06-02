@@ -129,7 +129,7 @@ export default function Blogs() {
 
         <Link href="/blogs/bridgingacademia">
           <TiltedCard
-            imageSrc="/images/seminar6.jpg"
+            imageSrc="/images/seminar6git.jpg"
             altText="Enhancing Audio Processing"
             captionText="Bridging Academia and Startup Innovation"
             containerHeight="200px"
