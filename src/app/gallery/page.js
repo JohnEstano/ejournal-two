@@ -71,14 +71,14 @@ export default function Gallery() {
                 className="rounded-xl"
             />
              <Image
-                src='/images/seminar4.jpeg'
+                src='/images/seminar4.jpg'
                 width={600}
                 height={100}
                 alt="pctrs"
                 className="rounded-xl"
             />
              <Image
-                src='/images/seminar6.jpeg'
+                src='/images/seminar6.jpg'
                 width={600}
                 height={100}
                 alt="pctrs"
