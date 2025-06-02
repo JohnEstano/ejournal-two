@@ -28,56 +28,56 @@ export default function Gallery() {
                 alt="pctrs"
                 className="rounded-xl"
             />
-              <Image
+            <Image
                 src='/images/tours/1.jpg'
                 width={600}
                 height={100}
                 alt="pctrs"
                 className="rounded-xl"
             />
-             <Image
+            <Image
                 src='/images/tours/5.jpg'
                 width={600}
                 height={100}
                 alt="pctrs"
                 className="rounded-xl"
             />
-             <Image
+            <Image
                 src='/images/tours/6.jpg'
                 width={600}
                 height={100}
                 alt="pctrs"
                 className="rounded-xl"
             />
-                   <Image
+            <Image
                 src='/images/tours/7.jpg'
                 width={600}
                 height={100}
                 alt="pctrs"
                 className="rounded-xl"
             />
-             <Image
+            <Image
                 src='/images/tours/8.jpg'
                 width={600}
                 height={100}
                 alt="pctrs"
                 className="rounded-xl"
             />
-               <Image
+            <Image
                 src='/images/seminar5.jpg'
                 width={600}
                 height={100}
                 alt="pctrs"
                 className="rounded-xl"
             />
-             <Image
+            <Image
                 src='/images/seminar4.jpg'
                 width={600}
                 height={100}
                 alt="pctrs"
                 className="rounded-xl"
             />
-             <Image
+            <Image
                 src='/images/seminar6.jpg'
                 width={600}
                 height={100}
@@ -85,6 +85,13 @@ export default function Gallery() {
                 className="rounded-xl"
             />
 
+            <Image
+                src='/images/tours/4.jpg'
+                width={600}
+                height={100}
+                alt="pctrs"
+                className="rounded-xl"
+            />
         </div>
 
         <DockNav />
