@@ -3,10 +3,9 @@ import { DockNav } from "@/components/dock-nav";
 import FadeContent from '@/components/FadeContent';
 import Lanyard from '@/components/Lanyard';
 import { Spotlight } from "@/components/ui/spotlight";
-// Import a professional serif font from Google Fonts
 import { Playfair_Display } from 'next/font/google';
 
-// Configure the Playfair Display font
+
 const playfair = Playfair_Display({
   subsets: ['latin'],
   weight: ['400', '700'],

@@ -1,10 +1,10 @@
-import Image from "next/image";
+
 import { DockNav } from "@/components/dock-nav";
-import { motion } from "motion/react";
 import { LinkPreview } from "@/components/ui/link-preview";
 import TiltedCard from '@/components/TiltedCard';
 import Link from 'next/link';
 import { Separator } from '@/components/ui/separator';
+import FadeContent from '@/components/FadeContent';
 
 
 export default function Blogs() {
@@ -22,16 +22,20 @@ export default function Blogs() {
         font-[family-name:var(--font-geist-sans)]
       "
     >
-      <h2
-        className={
-          ` mt-5 font-thin leading-tight italic 
+      <FadeContent blur={false} duration={700} easing="ease-out" initialOpacity={0}>
+
+
+
+        <h2
+          className={
+            ` mt-5 font-thin leading-tight italic 
               text-3xl md:text-4xl text-zinc-800 font-serif dark:text-zinc-100`
-        }
+          }
 
-      >
-        Blogs
-      </h2>
-
+        >
+          Blogs
+        </h2>
+      </FadeContent>
       <p className="italic">Seminars & Workshops</p>
       <div className="grid grid-cols-3 gap-x-15 gap-y-10 mt-5">
 
