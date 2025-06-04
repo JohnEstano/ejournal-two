@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 import { LinkPreview } from "@/components/ui/link-preview";
 import TiltedCard from '@/components/TiltedCard';
 import Link from 'next/link';
-import {Separator} from '@/components/ui/separator';
+import { Separator } from '@/components/ui/separator';
 
 
 export default function Blogs() {
@@ -165,9 +165,9 @@ export default function Blogs() {
       </div>
 
 
- <Separator className="my-4" />
+      <Separator className="my-4" />
       <p className="italic">Tours</p>
-      
+
       <div className="grid grid-cols-3 gap-x-15 gap-y-10 mt-5">
 
         <Link href="/tours">
@@ -189,7 +189,8 @@ export default function Blogs() {
         </Link>
       </div>
 
-
+      <Separator className="mt-5 mb-5" />
+      <p className="italic">Trainings & Certifications</p>
 
 
 
