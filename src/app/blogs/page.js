@@ -5,7 +5,7 @@ import TiltedCard from '@/components/TiltedCard';
 import Link from 'next/link';
 import { Separator } from '@/components/ui/separator';
 import FadeContent from '@/components/FadeContent';
-import { Card, CardContent } from "@/components/ui/card"
+import { Skeleton } from "@/components/ui/skeleton";
 import Image from 'next/image';
 import {
   Carousel,
@@ -54,7 +54,13 @@ export default function Blogs() {
 
 
 
+      <blockquote className="mt-6 border-l-2 pl-6 italic">
+        &quot;After all,&quot; he said, &quot;everyone enjoys a good joke, so
+        it&apos;s only fair that they should pay for the privilege.&quot;
+      </blockquote>
+
       <div className="grid grid-cols-3 gap-x-15 gap-y-10 mt-5">
+
 
         <Link href="/blogs/dailylifeofadev">
           <TiltedCard
@@ -214,6 +220,47 @@ export default function Blogs() {
       <p className="italic">Trainings & Certifications</p>
 
 
+      <Carousel className="w-full max-w-sm">
+        <CarouselContent>
+
+          <CarouselItem>
+            <div className="p-1">
+
+              <p className="text-center mb-3">Build a Free Website with Wordpress</p>
+
+
+              <Image
+                src="/images/cert1.png"
+                width={800}
+                height={200}
+                alt="pictures"
+                className="rounded-lg"
+              />
+
+
+            </div>
+          </CarouselItem>
+
+
+          <CarouselItem >
+            <div className="p-1">
+              <p className="text-center mb-3">Getting Started with Microsoft Excel</p>
+
+              <Image
+                src="/images/cert2.png"
+                width={800}
+                height={200}
+                alt="pictures"
+                className="rounded-lg w-[800px] mx-w-[800px]"
+              />
+
+
+            </div>
+          </CarouselItem>
+        </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
+      </Carousel>
 
 
 

@@ -33,7 +33,7 @@ export default function About() {
                     <FadeContent blur={true} duration={500} easing="ease-out" initialOpacity={0}>
                         <div className="grid grid-cols-1 gap-5">
                             <p className="text-justify text-lg max-w-md">
-                                Hey, I am John Estano. I am a 2nd year Computer Science student studying at the University of the Immaculate Conception. I like birds and the color <span className="text-emerald-500">green</span>.
+                                Hello, I am John Estano. I am a 2nd year Computer Science student studying at the University of the Immaculate Conception. I like birds and the color <span className="text-emerald-500">green</span>.
                             </p>
                         </div>
 
