@@ -5,6 +5,15 @@ import TiltedCard from '@/components/TiltedCard';
 import Link from 'next/link';
 import { Separator } from '@/components/ui/separator';
 import FadeContent from '@/components/FadeContent';
+import { Card, CardContent } from "@/components/ui/card"
+import Image from 'next/image';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 
 
 export default function Blogs() {
@@ -22,7 +31,7 @@ export default function Blogs() {
         font-[family-name:var(--font-geist-sans)]
       "
     >
-      <FadeContent blur={false} duration={700} easing="ease-out" initialOpacity={0}>
+      <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0}>
 
 
 
@@ -36,7 +45,15 @@ export default function Blogs() {
           Blogs
         </h2>
       </FadeContent>
-      <p className="italic">Seminars & Workshops</p>
+
+      <FadeContent blur={true} duration={800} easing="ease-out" initialOpacity={0}>
+        <p className="italic">Seminars & Workshops</p>
+      </FadeContent>
+
+
+
+
+
       <div className="grid grid-cols-3 gap-x-15 gap-y-10 mt-5">
 
         <Link href="/blogs/dailylifeofadev">
@@ -197,13 +214,53 @@ export default function Blogs() {
       <p className="italic">Trainings & Certifications</p>
 
 
+      <Carousel className="w-full max-w-sm">
+        <CarouselContent>
 
+          <CarouselItem>
+            <div className="p-1">
+
+              <p className="text-center mb-3">Build a Free Website with Wordpress</p>
+
+
+              <Image
+                src="/images/cert1.png"
+                width={800}
+                height={200}
+                alt="pictures"
+                className="rounded-lg"
+              />
+
+
+            </div>
+          </CarouselItem>
+
+
+          <CarouselItem >
+            <div className="p-1">
+              <p className="text-center mb-3">Getting Started with Microsoft Excel</p>
+
+              <Image
+                src="/images/cert2.png"
+                width={800}
+                height={200}
+                alt="pictures"
+                className="rounded-lg w-[800px] mx-w-[800px]"
+              />
+
+
+            </div>
+          </CarouselItem>
+        </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
+      </Carousel>
 
 
 
 
 
       <DockNav />
-    </div>
+    </div >
   );
 }
