@@ -214,47 +214,6 @@ export default function Blogs() {
       <p className="italic">Trainings & Certifications</p>
 
 
-      <Carousel className="w-full max-w-sm">
-        <CarouselContent>
-
-          <CarouselItem>
-            <div className="p-1">
-
-              <p className="text-center mb-3">Build a Free Website with Wordpress</p>
-
-
-              <Image
-                src="/images/cert1.png"
-                width={800}
-                height={200}
-                alt="pictures"
-                className="rounded-lg"
-              />
-
-
-            </div>
-          </CarouselItem>
-
-
-          <CarouselItem >
-            <div className="p-1">
-              <p className="text-center mb-3">Getting Started with Microsoft Excel</p>
-
-              <Image
-                src="/images/cert2.png"
-                width={800}
-                height={200}
-                alt="pictures"
-                className="rounded-lg w-[800px] mx-w-[800px]"
-              />
-
-
-            </div>
-          </CarouselItem>
-        </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
-      </Carousel>
 
 
 
