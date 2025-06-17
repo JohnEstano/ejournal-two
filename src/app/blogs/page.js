@@ -44,7 +44,17 @@ export default function Blogs() {
         >
           Blogs
         </h2>
+
       </FadeContent>
+      <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0}>
+        <blockquote className="mt-6 border-l-2 pl-6 italic">
+          &quot;When a course opens new perspectives, participants gladly shoulder the cost for the benefit it brings. &quot;
+        </blockquote>
+
+      </FadeContent>
+
+
+      <Separator className="my-4" />
 
       <FadeContent blur={true} duration={800} easing="ease-out" initialOpacity={0}>
         <p className="italic">Seminars & Workshops</p>
@@ -54,140 +64,182 @@ export default function Blogs() {
 
 
 
-      <blockquote className="mt-6 border-l-2 pl-6 italic">
-        &quot;After all,&quot; he said, &quot;everyone enjoys a good joke, so
-        it&apos;s only fair that they should pay for the privilege.&quot;
-      </blockquote>
-
-      <div className="grid grid-cols-3 gap-x-15 gap-y-10 mt-5">
 
 
-        <Link href="/blogs/dailylifeofadev">
+
+
+      <div className="grid grid-cols-3 gap-x-0 gap-y-10 mt-5">
+
+
+        <Link href="/blogs/dailylifeofadev" className="flex flex-col items-center">
           <TiltedCard
             imageSrc="images/seminar1.jpeg"
             altText="Navigating Software Development in the Industry"
-            captionText="Navigating Software Development in the Industry"
-            containerHeight="200px"
-            containerWidth="200px"
-            imageHeight="200px"
-            imageWidth="200px"
-            rotateAmplitude={12}
-            scaleOnHover={1.1}
+            captionText="Explore"
+            containerHeight="250px"
+            containerWidth="250px"
+            imageHeight="250px"
+            imageWidth="250px"
+            rotateAmplitude={5}
+            scaleOnHover={1}
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
 
           />
 
-
+          <p className="text-sm mt-5">Navigating Software Development in the Industry</p>
         </Link>
 
-        <Link href="/blogs/audioprocessing">
+        <Link href="/blogs/audioprocessing" className="flex flex-col items-center">
           <TiltedCard
-            imageSrc="images/seminar2.jpg"
+            imageSrc="images/seminar11.jpg"
             altText="Enhancing Audio Processing"
-            captionText="Enhancing Audio Processing"
-            containerHeight="200px"
-            containerWidth="200px"
-            imageHeight="200px"
-            imageWidth="200px"
-            rotateAmplitude={12}
-            scaleOnHover={1.1}
+            captionText="Explore"
+            containerHeight="250px"
+            containerWidth="250px"
+            imageHeight="250px"
+            imageWidth="250px"
+            rotateAmplitude={5}
+            scaleOnHover={1}
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
 
           />
+          <p className="text-sm mt-5">The Ins and Outs of Software Engineering</p>
         </Link>
 
-        <Link href="/blogs/conference">
+        <Link href="/blogs/conference" className="flex flex-col items-center">
           <TiltedCard
             imageSrc="images/seminar3_2.jpg"
             altText="Conference"
-            captionText="Conference Presentation and Funding Techniques"
-            containerHeight="200px"
-            containerWidth="200px"
-            imageHeight="200px"
-            imageWidth="200px"
-            rotateAmplitude={12}
-            scaleOnHover={1.1}
+            captionText="Explore"
+            containerHeight="250px"
+            containerWidth="250px"
+            imageHeight="250px"
+            imageWidth="250px"
+            rotateAmplitude={5}
+            scaleOnHover={1}
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
 
           />
+          <p className="text-sm mt-5">Conference Presentation and Funding Techniques</p>
         </Link>
 
-        <Link href="/blogs/therapease">
+        <Link href="/blogs/therapease" className="flex flex-col items-center">
           <TiltedCard
-            imageSrc="/images/seminar4.jpg"
+            imageSrc="/images/seminar12.jpg"
             altText="Enhancing Audio Processing"
-            captionText="TherapEase"
-            containerHeight="200px"
-            containerWidth="200px"
-            imageHeight="200px"
-            imageWidth="200px"
-            rotateAmplitude={12}
-            scaleOnHover={1.1}
+            captionText="Explore"
+            containerHeight="250px"
+            containerWidth="250px"
+            imageHeight="250px"
+            imageWidth="250px"
+            rotateAmplitude={5}
+            scaleOnHover={1}
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
 
           />
-
+          <p className="text-sm mt-3">TherapEase</p>
         </Link>
-        <Link href="/blogs/theinsandouts">
+        <Link href="/blogs/theinsandouts" className="flex flex-col items-center">
           <TiltedCard
             imageSrc="images/seminar5.jpg"
             altText="Enhancing Audio Processing"
-            captionText="The Ins and Outs of Software Engineering Research Project"
-            containerHeight="200px"
-            containerWidth="200px"
-            imageHeight="200px"
-            imageWidth="200px"
-            rotateAmplitude={12}
-            scaleOnHover={1.1}
+            captionText="Explore"
+            containerHeight="250px"
+            containerWidth="250px"
+            imageHeight="250px"
+            imageWidth="250px"
+            rotateAmplitude={5}
+            scaleOnHover={1}
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
 
           />
+          <p className="text-sm mt-3">The Ins and Outs of Software Engineering</p>
         </Link>
 
-        <Link href="/blogs/bridgingacademia">
+        <Link href="/blogs/bridgingacademia" className="flex flex-col items-center">
+
           <TiltedCard
-            imageSrc="/images/seminar6.jpg"
+            imageSrc="/images/seminar10.jpg"
             altText="Enhancing Audio Processing"
-            captionText="Bridging Academia and Startup Innovation"
-            containerHeight="200px"
-            containerWidth="200px"
-            imageHeight="200px"
-            imageWidth="200px"
-            rotateAmplitude={12}
-            scaleOnHover={1.1}
+            captionText="Explore"
+            containerHeight="250px"
+            containerWidth="250px"
+            imageHeight="250px"
+            imageWidth="250px"
+            rotateAmplitude={5}
+            scaleOnHover={1}
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
 
           />
+
+          <p className="text-sm mt-3">Bridging Academia and Startup Innovation</p>
         </Link>
 
-        <Link href="/blogs/prompting">
+        <Link href="/blogs/prompting" className="flex flex-col items-center">
           <TiltedCard
             imageSrc="images/seminar7.jpg"
             altText="Enhancing Audio Processing"
-            captionText="Prompt Engineering"
-            containerHeight="200px"
-            containerWidth="200px"
-            imageHeight="200px"
-            imageWidth="200px"
-            rotateAmplitude={12}
-            scaleOnHover={1.1}
+            captionText="Explore"
+            containerHeight="250px"
+            containerWidth="250px"
+            imageHeight="250px"
+            imageWidth="250px"
+            rotateAmplitude={5}
+            scaleOnHover={1}
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
 
           />
+          <p className="text-sm mt-3">Prompt Engineering</p>
+        </Link>
+        <Link href="/blogs/agenticai" className="flex flex-col items-center">
+          <TiltedCard
+            imageSrc="images/seminar8.jpg"
+            altText="Enhancing Audio Processing"
+            captionText="Explore"
+            containerHeight="250px"
+            containerWidth="250px"
+            imageHeight="250px"
+            imageWidth="250px"
+            rotateAmplitude={5}
+            scaleOnHover={1}
+            showMobileWarning={false}
+            showTooltip={true}
+            displayOverlayContent={true}
+
+          />
+          <p className="text-sm mt-3">Understanding Agentic AI</p>
+        </Link>
+        <Link href="/blogs/blockchain" className="flex flex-col items-center">
+          <TiltedCard
+            imageSrc="images/seminar9.jpg"
+            altText="Enhancing Audio Processing"
+            captionText="Explore"
+            containerHeight="250px"
+            containerWidth="250px"
+            imageHeight="250px"
+            imageWidth="250px"
+            rotateAmplitude={12}
+            scaleOnHover={1}
+            showMobileWarning={false}
+            showTooltip={true}
+            displayOverlayContent={true}
+
+          />
+          <p className="text-sm mt-3">Exploring Web3: Blockchain,DeFi and the future of the Internet</p>
         </Link>
       </div>
 
@@ -202,11 +254,11 @@ export default function Blogs() {
             imageSrc="images/tours/1.jpg"
             altText="Enhancing Audio Processing"
             captionText="PTV DAVAO"
-            containerHeight="200px"
-            containerWidth="200px"
-            imageHeight="200px"
-            imageWidth="200px"
-            rotateAmplitude={12}
+            containerHeight="250px"
+            containerWidth="250px"
+            imageHeight="250px"
+            imageWidth="250px"
+            rotateAmplitude={5}
             scaleOnHover={1.1}
             showMobileWarning={false}
             showTooltip={true}

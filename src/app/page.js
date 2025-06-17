@@ -40,7 +40,9 @@ export default function Home() {
             Seminars, Workshops, & Tours
           </h2>
         </FadeContent>
- 
+
+      
+
       </div>
 
 
