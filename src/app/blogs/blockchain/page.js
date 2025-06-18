@@ -21,17 +21,14 @@ export default function Blogs() {
       <div className="grid grid-cols-1 gap-1 mb-5">
         <h1 className="font-semibold">Exploring Web3: Blockchain, DeFI, and the future of the internet</h1>
         <div className="flex gap-5">
-          <p className="">Speaker:  Carlos Castro</p>
-          <p className="">Date: 05/21/2025</p>
+          <p className="">Speakers: Mr. Ferdie James Nervida, Mr Rod Albores, Mr. Ejay Bastes, Mr. Ken Berds Berry </p>
+          <p className="">Date: 06/14/2025</p>
         </div>
       </div>
 
-      <p className="text-justify max-w-[600px]">
-        Sir Carlos Castro, or also more known as Sir Lucas mainly discussed about his experience in conducting the output they have during their Technical Writing course. It is aligned with the fourth year college students capstone project SultiWag at that time and they have contributed to the project by increasing its accuracy by 80%+ which is actually significantly higher than of SultiWags 70%+ accuracy.
-      </p>
 
       <Image
-        src="/images/seminar2.jpg"
+        src="/images/seminar20.png"
         width={500}
         height={300}
         className="rounded-lg"
@@ -39,14 +36,10 @@ export default function Blogs() {
       />
 
       <p className="text-justify max-w-[600px] mt-5">
-        I do not want to delve deeper on the technicalities of their research paper to be exact. I will summarize the entire thing.
-        Their paper was entitled Ugop Bridge: Improving Indigenous Language Classification. They are like building upon the tools, methods, and even the datasets done by the UGOP Bridge team with the intention to improve the system and add on to the steps. These steps include re-sampling the audio, fixing the duration of the recordings, and augmenting the audio data in the datasets.
+      The seminar was all about a comprehensive overview of Web3, focusing on blockchain technology, decentralized finance (DeFi), and the future of the internet. The speakers, Mr. Ferdie James Nervida, Mr. Rod Albores, Mr. Ejay Bastes, and Mr. Ken Berds Berry, shared their insights on how these technologies are transforming various industries and shaping the digital landscape.
       </p>
 
 
-      <p className="text-justify max-w-[600px] mt-5">
-      His speech was inspiring in itself because he shared that this paper gave them the opportunity to travel to Manila and share their paper there at De lasalle University.
-      </p>
 
 
       <DockNav />

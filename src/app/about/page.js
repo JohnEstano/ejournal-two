@@ -65,7 +65,7 @@ export default function About() {
 
                     <FadeContent blur={true} duration={500} easing="ease-out" initialOpacity={0}>
                         <p className="text-justify text-lg max-w-md">
-                            This page is created in partial fulfillment of the course Seminars, Workshops, & Tours. This course gives students exposure to the real world and more specifically the tech industry. Here, I gather insights of my experiences in each activity. This page is created with ReactJs, using Next.js as the framework. It is hosted on Vercel and uses Tailwind CSS for styling. The source code is available on my Github.
+                            This page is created in fulfillment of the course Seminars, Workshops, & Tours. This course gives students exposure to the real world and more specifically the tech industry. Here, I gather insights of my experiences in each activity. This page is created with ReactJs, using Next.js as the framework. It is hosted on Vercel and uses Tailwind CSS for styling. The source code is available on my Github.
                         </p>
 
 

@@ -40,11 +40,21 @@ export default function Home() {
             Seminars, Workshops, & Tours
           </h2>
         </FadeContent>
+        <div className="relative overflow-visible">
+          <FadeContent blur={false} duration={700} easing="ease-out" initialOpacity={0}>
+            <Image
+              src="/uic1.webp"
+              alt="UIC Campus"
+              width={600}
+              height={500}
+              className="absolute top-20 right-30  translate-x-1/2 rounded-xl z-1"
+            />
+          </FadeContent>
 
-      
+        </div>
+
 
       </div>
-
 
 
       <DockNav />

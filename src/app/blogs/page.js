@@ -29,6 +29,7 @@ export default function Blogs() {
         gap-4
         sm:p-20
         font-[family-name:var(--font-geist-sans)]
+        font-serif
       "
     >
       <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0}>
@@ -68,9 +69,7 @@ export default function Blogs() {
 
 
 
-      <div className="grid grid-cols-3 gap-x-0 gap-y-10 mt-5">
-
-
+      <div className="grid grid-cols-3 gap-x-10 gap-y-10 mt-5">
         <Link href="/blogs/dailylifeofadev" className="flex flex-col items-center">
           <TiltedCard
             imageSrc="images/seminar1.jpeg"
@@ -85,10 +84,10 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-
           />
-
-          <p className="text-sm mt-5">Navigating Software Development in the Industry</p>
+          <p className="text-sm mt-5 text-left break-words max-w-[250px]">
+            Navigating Software Development in the Industry
+          </p>
         </Link>
 
         <Link href="/blogs/audioprocessing" className="flex flex-col items-center">
@@ -105,9 +104,10 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-
           />
-          <p className="text-sm mt-5">The Ins and Outs of Software Engineering</p>
+          <p className="text-sm mt-5 text-left break-words max-w-[250px]">
+            Enhancing Audio Processing: Development and Evaluation of a Transcriber Tool
+          </p>
         </Link>
 
         <Link href="/blogs/conference" className="flex flex-col items-center">
@@ -124,15 +124,16 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-
           />
-          <p className="text-sm mt-5">Conference Presentation and Funding Techniques</p>
+          <p className="text-sm mt-5 text-left break-words max-w-[250px]">
+            Conference Presentation and Funding Techniques
+          </p>
         </Link>
 
         <Link href="/blogs/therapease" className="flex flex-col items-center">
           <TiltedCard
             imageSrc="/images/seminar12.jpg"
-            altText="Enhancing Audio Processing"
+            altText="TherapEase"
             captionText="Explore"
             containerHeight="250px"
             containerWidth="250px"
@@ -143,14 +144,16 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-
           />
-          <p className="text-sm mt-3">TherapEase</p>
+          <p className="text-sm mt-3 text-left break-words max-w-[250px]">
+            TherapEase
+          </p>
         </Link>
+
         <Link href="/blogs/theinsandouts" className="flex flex-col items-center">
           <TiltedCard
             imageSrc="images/seminar5.jpg"
-            altText="Enhancing Audio Processing"
+            altText="The Ins and Outs of Software Engineering"
             captionText="Explore"
             containerHeight="250px"
             containerWidth="250px"
@@ -161,16 +164,16 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-
           />
-          <p className="text-sm mt-3">The Ins and Outs of Software Engineering</p>
+          <p className="text-sm mt-3 text-left break-words max-w-[250px]">
+            The Ins and Outs of Software Engineering
+          </p>
         </Link>
 
         <Link href="/blogs/bridgingacademia" className="flex flex-col items-center">
-
           <TiltedCard
-            imageSrc="/images/seminar10.jpg"
-            altText="Enhancing Audio Processing"
+            imageSrc="images/seminar10.jpg"
+            altText="Bridging Academia and Startup Innovation"
             captionText="Explore"
             containerHeight="250px"
             containerWidth="250px"
@@ -181,16 +184,16 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-
           />
-
-          <p className="text-sm mt-3">Bridging Academia and Startup Innovation</p>
+          <p className="text-sm mt-3 text-left break-words max-w-[250px]">
+            Bridging Academia and Startup Innovation
+          </p>
         </Link>
 
         <Link href="/blogs/prompting" className="flex flex-col items-center">
           <TiltedCard
             imageSrc="images/seminar7.jpg"
-            altText="Enhancing Audio Processing"
+            altText="Prompt Engineering"
             captionText="Explore"
             containerHeight="250px"
             containerWidth="250px"
@@ -201,14 +204,16 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-
           />
-          <p className="text-sm mt-3">Prompt Engineering</p>
+          <p className="text-sm mt-3 text-left break-words max-w-[250px]">
+            Prompt Engineering
+          </p>
         </Link>
+
         <Link href="/blogs/agenticai" className="flex flex-col items-center">
           <TiltedCard
             imageSrc="images/seminar8.jpg"
-            altText="Enhancing Audio Processing"
+            altText="Understanding Agentic AI"
             captionText="Explore"
             containerHeight="250px"
             containerWidth="250px"
@@ -219,14 +224,16 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-
           />
-          <p className="text-sm mt-3">Understanding Agentic AI</p>
+          <p className="text-sm mt-3 text-left break-words max-w-[250px]">
+            Understanding Agentic AI
+          </p>
         </Link>
+
         <Link href="/blogs/blockchain" className="flex flex-col items-center">
           <TiltedCard
             imageSrc="images/seminar9.jpg"
-            altText="Enhancing Audio Processing"
+            altText="Exploring Web3: Blockchain, DeFi and the future of the Internet"
             captionText="Explore"
             containerHeight="250px"
             containerWidth="250px"
@@ -237,12 +244,12 @@ export default function Blogs() {
             showMobileWarning={false}
             showTooltip={true}
             displayOverlayContent={true}
-
           />
-          <p className="text-sm mt-3">Exploring Web3: Blockchain,DeFi and the future of the Internet</p>
+          <p className="text-sm mt-3 text-left break-words max-w-[250px]">
+            Exploring Web3: Blockchain, DeFi and the future of the Internet
+          </p>
         </Link>
       </div>
-
 
       <Separator className="my-4" />
       <p className="italic">Tours</p>
